@@ -18,6 +18,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".LearningApp"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.learningappwithquizz.LearningApp" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Quiz"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.learningappwithquizz.Quiz" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
