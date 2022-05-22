@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Learning App With Quizz</string>
+    <string name="alphabets">Alphabets</string>
+    <string name="button">Button</string>
 </resources>
