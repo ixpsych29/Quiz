@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     Button b1, b2;
     Button a, b, c, d, e, f;
@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         b1=(Button) findViewById(R.id.learnBTN);
         b2=(Button) findViewById(R.id.quizBTN);
         a = (Button)findViewById(R.id.Abtn);
+        a.setOnClickListener(this);
         b = (Button)findViewById(R.id.Bbtn);
         c = (Button)findViewById(R.id.Cbtn);
         d = (Button)findViewById(R.id.Dbtn);
@@ -75,4 +76,12 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    @Override
+    public void onClick(View view) {
+        Button btn = (Button) view;
+        btn.setText("clicked");
+//        switch (view.getId())
+//        case a
+
+    }
 }

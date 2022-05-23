@@ -35,52 +35,52 @@
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name=".AlphaA"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="com.example.learningappwithquizz.AlphaA" />
+<!--        <activity-->
+<!--            android:name=".AlphaA"-->
+<!--            android:exported="true">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="com.example.learningappwithquizz.AlphaA" />-->
 
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".AlphaB"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="com.example.learningappwithquizz.AlphaB" />
+<!--                <category android:name="android.intent.category.DEFAULT" />-->
+<!--            </intent-filter>-->
+<!--        </activity>-->
+<!--        <activity-->
+<!--            android:name=".AlphaB"-->
+<!--            android:exported="true">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="com.example.learningappwithquizz.AlphaB" />-->
 
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".AlphaC"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="com.example.learningappwithquizz.AlphaC" />
+<!--                <category android:name="android.intent.category.DEFAULT" />-->
+<!--            </intent-filter>-->
+<!--        </activity>-->
+<!--        <activity-->
+<!--            android:name=".AlphaC"-->
+<!--            android:exported="true">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="com.example.learningappwithquizz.AlphaC" />-->
 
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".AlphaD"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="com.example.learningappwithquizz.AlphaD" />
+<!--                <category android:name="android.intent.category.DEFAULT" />-->
+<!--            </intent-filter>-->
+<!--        </activity>-->
+<!--        <activity-->
+<!--            android:name=".AlphaD"-->
+<!--            android:exported="true">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="com.example.learningappwithquizz.AlphaD" />-->
 
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".AlphaE"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="com.example.learningappwithquizz.AlphaE" />
+<!--                <category android:name="android.intent.category.DEFAULT" />-->
+<!--            </intent-filter>-->
+<!--        </activity>-->
+<!--        <activity-->
+<!--            android:name=".AlphaE"-->
+<!--            android:exported="true">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="com.example.learningappwithquizz.AlphaE" />-->
 
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
+<!--                <category android:name="android.intent.category.DEFAULT" />-->
+<!--            </intent-filter>-->
+<!--        </activity>-->
     </application>
 
+</activity>
 </manifest>
